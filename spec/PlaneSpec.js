@@ -6,7 +6,8 @@ describe ('Plane', function() {
   });
 
   it ('Plane will land at an airport', function() {
-    expect(plane.land('Airport')).toBe('Landing at Airport');
+    plane.land();
+    expect(plane.inflight).toBe(false);
   });
 
 });

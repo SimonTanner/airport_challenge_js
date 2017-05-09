@@ -1,7 +1,7 @@
 function Plane() {
+  this.inflight = false;
 }
 
-Plane.prototype.land = function(airport) {
-  return('Landing at Airport');
-
+Plane.prototype.land = function() {
+  this.inflight = false;
 };

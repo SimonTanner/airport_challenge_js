@@ -1,3 +1,5 @@
+
+
 function Plane() {
   this.inflight = false;
 }
@@ -5,3 +7,5 @@ function Plane() {
 Plane.prototype.land = function() {
   this.inflight = false;
 };
+
+module.exports = Plane;
